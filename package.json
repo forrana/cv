@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "0.0.1",
+  "description": "My CV",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Aliaksei Kuchyn",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
