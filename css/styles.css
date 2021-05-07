@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 4em;
+}
+
+aside {
+  margin-right: 2em;
+}
+
+.full-name {
+  font-size: xxx-large;
+  margin-top: -0.2em;
+  margin-bottom: 0.2em;
+  font-weight: bolder;
+}
