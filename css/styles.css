@@ -1,9 +1,7 @@
 body {
   display: grid;
   grid-template-areas:
-  'header header header header header header header'
-  'name name name name name name name'
-  'aside main main main main main main';
+  'aside main main main main main';
   grid-gap: 10px;
   padding: 10px;
   margin: 0em 0em;
@@ -14,6 +12,11 @@ body > * {
   text-align: left;
   /* padding: 20px 0; */
   font-size: 16px;
+}
+
+.photo {
+  max-width: 100%;
+  height: auto;
 }
 
 header { grid-area: header; }
@@ -57,11 +60,7 @@ li { padding: 5px 0; }
 
 
 aside {
-  /* margin-right: 2em; */
-}
-
-.summary {
-  margin-left: 1em;
+  width: 12em;
 }
 
 .full-name {
