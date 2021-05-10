@@ -10,13 +10,17 @@ body {
 body > * {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: left;
-  /* padding: 20px 0; */
   font-size: 16px;
+  padding-bottom: 0;
 }
 
 .photo {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
+}
+
+.hidden {
+  display: none;
 }
 
 header { grid-area: header; }
@@ -66,12 +70,16 @@ aside {
 .full-name {
   margin-block-start: 0;
   font-size: xxx-large;
-  /* margin-top: -0.2em;
-  margin-bottom: 0.2em; */
+  margin-top: -0.2em;
+  /* margin-bottom: 0.2em; */
   font-weight: bolder;
 }
 
 aside > section {
   display: flex;
   flex-direction: column;
+}
+
+.skills article h1 {
+  margin-bottom: 0;
 }
